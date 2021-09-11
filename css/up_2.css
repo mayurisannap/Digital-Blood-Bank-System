@@ -1,0 +1,168 @@
+body {
+  
+	background-color: #f0b69fc5;
+	background-repeat: no-repeat,repeat;
+	background-position: center;
+	background-size: cover;
+  font-family:  Helvetica;
+}
+
+/* Profile container */
+.profile {
+  margin: 50px 200px 50px 200px;
+}
+
+.my{
+  margin: 5px 2px 50px 2px;
+  background:#ce050f;
+  text-align: center;   
+}
+hr{
+  
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top:2px solid;
+}
+#u{
+  color: #fff;
+}
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 10px;
+  background: rgba(211,211,211,0.5);
+}
+
+
+.profile-usertitle {
+  text-size-adjust: 50%;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.profile-usertitle-name {
+  color: #161615;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #141414;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.profile-userbuttons .btn {
+  
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #010202;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+
+
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: rgb(68, 60, 60);
+  min-height: 460px;
+}
+.wrapper{
+  height: 250px;
+  width: 250px;
+  position: relative;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  background: url("https://static.change.org/profile-img/default-user-profile.svg");
+  background-size: 100% 100%;
+  margin: 30px auto;
+  overflow: hidden;
+}
+.my_file{
+  position: absolute;
+  bottom: 0;
+  outline: none;
+  color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 120px;
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+}
+.my_file::-webkit-file-upload-button{
+  visibility: hidden;
+}
+
+.my_file::before
+{
+  content:'\f030 ';
+  font-family: fontAwesome;
+  color: white;
+  font-size: 50px;
+  display: inline-block;
+  
+}
+
+
+.my_file:hover{
+  opacity:1;
+}
+.style1{
+  box-sizing: border-box;
+}
+
+h5{
+  font-family:sans-serif;
+}
+
+.ca {
+	font-size: 20px;
+	
+	text-decoration: none;
+	color: rgb(10, 7, 7);
+}
+.ca:hover {
+	text-decoration: underline;
+} 

@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  
+  background-color: #dfcaa5;
+  background-repeat: no-repeat,repeat;
+  background-position: center;
+  background-size: cover;
+  font-family:  Helvetica;
+}
+
+/* Profile container */
+.profile {
+  margin: 50px 250px 50px 250px;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 10px;
+  background: rgba(211,211,211,0.5);
+}
+
+.form-div { margin-top: 100px; border: 1px solid #e0e0e0; }
+#profileDisplay { display: block; height: 300px; width: 300px; margin: 0px auto; border-radius: 50%; }
+
+
+.img-div:hover {
+  display: block;
+  cursor: pointer;
+}
+
+
+.wrapper{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  background: url("https://static.change.org/profile-img/default-user-profile.svg");
+  background-size: 100% 100%;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.wrapper-preview
+        {
+          padding: 50px;
+          background: #fff;
+          box-shadow: 0 1px 4px rgba(0,0,0,.25);
+          border-radius: 10px;
+          text-align:center;
+        }
